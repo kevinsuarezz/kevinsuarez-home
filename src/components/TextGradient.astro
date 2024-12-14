@@ -1,0 +1,11 @@
+---
+const { as: Tag = "span", class: extraClasses = "" } = Astro.props;
+---
+
+<Tag class={`
+bg-gradient-to-r from-blue to-green
+bg-clip-text text-transparent
+w-fit ${extraClasses}`}
+>
+    <slot />
+</Tag>

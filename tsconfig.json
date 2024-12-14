@@ -4,17 +4,17 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "@type/*": [
-        "src/types/*"
-      ],
       "@components/*": [
         "src/components/*"
       ],
-      "@icons/*": [
-        "src/components/icons/*"
+      "@layouts/*": [
+        "src/layouts/*"
       ],
-      "@layout/*": [
-        "src/layout/*"
+      "@sections/*": [
+        "src/sections/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
       ],
       "@i18n/*": [
         "src/i18n/*"

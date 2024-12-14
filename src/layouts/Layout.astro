@@ -1,9 +1,11 @@
 ---
+import '@fontsource-variable/onest';
+
 const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es" class="bg-red">
+<html lang="es" class="bg-black">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -22,21 +24,15 @@ const { title } = Astro.props;
       }
 
       html {
-        font-family:
-          Montserrat,
-          Lucida Sans,
-          Lucida Sans Regular,
-          Lucida Grande,
-          Lucida Sans Unicode,
-          Geneva,
-          Verdana,
-          sans-serif;
-        height: 100%;
+        font-family: 'Onest Variable', sans-serif, system-ui;
+        height: 100vh;
         font-size: 16px;
       }
 
       body {
-        height: auto;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
       }
     </style>
   </body>
